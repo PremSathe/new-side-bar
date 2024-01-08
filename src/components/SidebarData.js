@@ -1,43 +1,44 @@
 import React from 'react'
-import HomeIcon from '@mui/icons-material/Home';
-import MailIcon from '@mui/icons-material/Mail';
-import AnalyticsIcon from '@mui/icons-material/Analytics';
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import GroupIcon from '@mui/icons-material/Group';
-import PermMediaIcon from '@mui/icons-material/PermMedia';
+import { IoIosHome } from "react-icons/io";
+import { IoIosMail } from "react-icons/io";
+import { SiGoogleanalytics } from "react-icons/si";
+import { MdDashboard } from "react-icons/md";
+import { FaLayerGroup } from "react-icons/fa6";
+import { MdPermMedia } from "react-icons/md";
+
 export const SidebarData = [
     {
         title: "Home",
-        icon: <HomeIcon />,
+        icon: <IoIosHome style={{fontSize: 22}} />,
         link: "/home"
 
     },
 
     {
         title: "Mailbox",
-        icon: <MailIcon />,
+        icon: <IoIosMail style={{fontSize: 22}}/>,
         link: "/Mailbox"
     },
 
     {
         title: "Analytics",
-        icon: <AnalyticsIcon />,
+        icon: <SiGoogleanalytics style={{fontSize: 22}}/>,
         link: "/Analytics"
     },
     {
         title: "DashBoaard",
-        icon: <DashboardIcon />,
+        icon: <MdDashboard style={{fontSize: 22}}/>,
         link: "/DashBoaard"
     },
  
     {
         title: "Friends",
-        icon: <GroupIcon />,
+        icon: <FaLayerGroup style={{fontSize: 22}}/>,
         link: "/Friends"
     },
     {
         title: "Images",
-        icon: <PermMediaIcon />,
+        icon: <MdPermMedia style={{fontSize: 22}}/>,
         link: "/Images"
     }
     
